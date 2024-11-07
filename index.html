@@ -16,15 +16,15 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <div class="d-flex w-100 justify-content-between">
-          <div>
+        <span class="navbar-brand"><i class="fa-brands fa-instagram fa-xl me-2"></i>Instagram</span>
+          <!-- <div>
             <i class="fa-brands fa-instagram fa-xl"></i>
-            <h4 class="d-inline-block justify-content-center">Instagram</h4>
-          </div>
+            <h4>Instagram</h4>
+          </div> -->
 
           <div class="d-flex align-right justify-content-end">
 
-              <!-- Modal new post -->
+              <!--Modal new post-->
 
             <button type="button" class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
           
@@ -83,87 +83,95 @@
 
     <!--Pestañas-->
     
-                <div class="container-fluid justify-content-center">
-                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
-                      class="fa-solid fa-table-cells"></i></a></button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
-                  </li>
-                </ul>
-              
-                  
-                  <!--3 por fila-->
-                  <div class="tab-content" id="myTabContent">
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+          class="fa-solid fa-table-cells"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      </li>
+    </ul>
 
-                  <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row gx-2">
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.Ce2m8qM-qT6o1vVpH-0OrAHaEo?w=306&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://services.meteored.com/img/article/las-montanas-importan-222621-2_1024.jpg" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.YUi4nWvxcwXvmASorhXqZQHaEK?rs=1&pid=ImgDetMain" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                    </div>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <!--3 filas-->
 
-                    <div class="row gx-2">
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://i.pinimg.com/originals/02/5c/ba/025cba8ce33ed90181ddc762e69141d5.jpg"class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://soulturista.com/wp-content/uploads/2022/11/cruzeiro-rio-sena.jpg" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.A8AlphzeYhuAwXKm1mBOrwHaE8?w=271&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                    </div>
-                   
+        <div class="container-fluid overflow-hidden my-3" id="home-tab">
 
-                    <div class="row gx-2">
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.qXOZL94P1pOnc42bn2gF5QHaEK?w=340&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.HnghvydWteohm57lWExArwHaEX?w=290&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                      <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP._qYp338Z72Q5rAodSkp-7gHaE8?w=230&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
-                    </div>
-                 </div>
-               
-                  <!--1 por fila-->
-                  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab">
-                    
-                    <div class="row my-3">
-                      <div class="col-6 mx-auto border rounded p-0">
-                          <div class="d-flex p-2">
-                              <div class="w-100 fs-4">El perro Beagle</div>
-                              <small class="align-bottom">04/11</small>
-                          </div>
-                          <img style="object-fit: cover;" src="https://th.bing.com/th/id/OIP.XFjSgwI7qkIs4sONSoo2QAHaE6?w=258&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 col-12" alt=""/>
-                          <div class="p-2">
-                              <strong>152 Likes</strong>
-                              <p>Dentro de los perros de raza, nos encontramos con el sorprendente beagle o beagle inglés, que llama la atención por su parecido físico con el foxhound. </p>
-                          </div>
-                      </div>
-                    </div>
+          <!--Primera fila triple-->
+         
+            <div class="row gx-2">
+              <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.XFjSgwI7qkIs4sONSoo2QAHaE6?w=258&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+              <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.8TiN0bjRI-VmboLXuyjPWwHaEK?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+              <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/R.eadee6b8eeb6ab68ad3563f6de4afd74?rik=pKqWNP9EnafYtw&pid=ImgRaw&r=0" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+           </div>
 
-                    <div class="row my-3">
-                      <div class="col-6 mx-auto border rounded p-0">
-                          <div class="d-flex p-2">
-                              <div class="w-100 fs-4">Principado de Mónaco</div>
-                              <small>04/11</small>
-                          </div>
-                          <img style="object-fit: cover;" src="https://th.bing.com/th/id/OIP.8TiN0bjRI-VmboLXuyjPWwHaEK?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 col-12" alt=""/>
-                          <div class="p-2">
-                              <strong>485 Likes</strong>
-                              <p>El Principado se encuentra entre el mar Mediterráneo y las bajas estribaciones de los Alpes, enclavado en la Riviera francesa.</p>
-                          </div>
-                      </div>
-                  </div>
+           <div class="row gx-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://i.pinimg.com/originals/02/5c/ba/025cba8ce33ed90181ddc762e69141d5.jpg"class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://services.meteored.com/img/article/las-montanas-importan-222621-2_1024.jpg" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.YUi4nWvxcwXvmASorhXqZQHaEK?rs=1&pid=ImgDetMain" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+          </div>
+         
+   
+          <div class="row gx-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.qXOZL94P1pOnc42bn2gF5QHaEK?w=340&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP.HnghvydWteohm57lWExArwHaEX?w=290&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-1"><img src="https://th.bing.com/th/id/OIP._qYp338Z72Q5rAodSkp-7gHaE8?w=230&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="image-thumbnail w-100" alt="" height="auto" style="object-fit: cover; width: 400px; height:400px"></div> 
+          </div>
 
-                  <div class="row my-3">
-                      <div class="col-6 mx-auto border rounded p-0">
-                          <div class="d-flex p-2">
-                              <div class="w-100 fs-4"></div>
-                              <small>04/11</small>
-                          </div>
-                          <img style="object-fit: cover;" src="https://th.bing.com/th/id/R.eadee6b8eeb6ab68ad3563f6de4afd74?rik=pKqWNP9EnafYtw&pid=ImgRaw&r=0" class="img-fluid w-100 col-12" alt=""/>
-                          <div class="p-2">
-                              <strong>687 Likes</strong>
-                              <p>Así hemos contado el partido de fútbol entre Barça y Real Madrid que se disputa en el Estadi Olímpic Lluís Companys</p>
-                          </div>
-                      </div>
-                    </div>
-                </div>
+        </div>
+      </div>
+    
+      <!--Feed-->
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+         <!--primera card-->
+       
+         <div class="row my-3">
+          <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                  <div class="w-100 fs-4">El perro Beagle</div>
+                  <small class="align-bottom">04/11</small>
+              </div>
+              <img style="object-fit: cover;" src="https://th.bing.com/th/id/OIP.XFjSgwI7qkIs4sONSoo2QAHaE6?w=258&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 col-12" alt=""/>
+              <div class="p-2">
+                  <strong>152 Likes</strong>
+                  <p>Dentro de los perros de raza, nos encontramos con el sorprendente beagle o beagle inglés, que llama la atención por su parecido físico con el foxhound. </p>
+              </div>
+          </div>
+        </div>
+ 
+        <div class="row my-3">
+          <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                  <div class="w-100 fs-4">Principado de Mónaco</div>
+                  <small>04/11</small>
+              </div>
+              <img style="object-fit: cover;" src="https://th.bing.com/th/id/OIP.8TiN0bjRI-VmboLXuyjPWwHaEK?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 col-12" alt=""/>
+              <div class="p-2">
+                  <strong>485 Likes</strong>
+                  <p>El Principado se encuentra entre el mar Mediterráneo y las bajas estribaciones de los Alpes, enclavado en la Riviera francesa.</p>
+              </div>
+          </div>
+      </div>
+ 
+      <div class="row my-3">
+          <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                  <div class="w-100 fs-4">Madrid VS Barça</div>
+                  <small>04/11</small>
+              </div>
+              <img style="object-fit: cover;" src="https://th.bing.com/th/id/R.eadee6b8eeb6ab68ad3563f6de4afd74?rik=pKqWNP9EnafYtw&pid=ImgRaw&r=0" class="img-fluid w-100 col-12" alt=""/>
+              <div class="p-2">
+                  <strong>687 Likes</strong>
+                  <p>Así hemos contado el partido de fútbol entre Barça y Real Madrid que se disputa en el Estadi Olímpic Lluís Companys</p>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    </div> 
+ 
 
       
   <!-- Bootstrap Functionalities link  -->
